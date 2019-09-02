@@ -1,0 +1,10 @@
+#
+# 設定ファイル
+#
+
+#再起動間隔(分)
+restart-interval: 60
+
+#接続先アドレス
+address: control.mcbe.host
+port: 50139

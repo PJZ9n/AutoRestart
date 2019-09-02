@@ -2,3 +2,13 @@ name: AutoRestart
 version: 1.0.0
 main: PJZ9n\AutoRestart\Main
 api: 3.0.0
+
+permissions:
+  AutoRestart:
+    default: true
+    children:
+      AutoRestart.Command:
+        default: true
+        children:
+          AutoRestart.Command.restart:
+            default: true
