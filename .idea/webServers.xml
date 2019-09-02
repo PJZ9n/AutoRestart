@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9f206910-0efc-4a83-bea7-c70bc6ad3cd5" name="PluginDevelop" url="http://control.mcbe.host">
+        <fileTransfer host="control.mcbe.host" port="2022" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2022" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
